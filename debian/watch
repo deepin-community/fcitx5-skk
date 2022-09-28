@@ -1,0 +1,4 @@
+version=4
+opts="pgpmode=auto" \
+ https://download.fcitx-im.org/fcitx5/fcitx5-skk/ \
+ fcitx5-skk-@ANY_VERSION@@ARCHIVE_EXT@ debian uupdate

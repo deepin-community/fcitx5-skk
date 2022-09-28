@@ -1,0 +1,95 @@
+fcitx5-skk (5.0.11-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Input Method Team <debian-input-method@lists.debian.org>  Mon, 25 Apr 2022 10:22:42 +0800
+
+fcitx5-skk (5.0.11-1) unstable; urgency=medium
+
+  * New upstream release. 
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 16 Mar 2022 11:38:27 -0400
+
+fcitx5-skk (5.0.10-1) unstable; urgency=medium
+
+  * New upstream release. 
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 04 Feb 2022 23:50:29 -0500
+
+fcitx5-skk (5.0.9-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop icon-related patch:
+    + debian/control: Mark binary package to conflict with fcitx-skk.
+    + debian/rules: Do not delete non-Flatpak icons.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 24 Nov 2021 11:13:56 -0500
+
+fcitx5-skk (5.0.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/watch: Monitor upstream signed tarball.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 17 Oct 2021 11:37:27 -0400
+
+fcitx5-skk (5.0.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 01 Oct 2021 03:19:25 +0800
+
+fcitx5-skk (5.0.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Update Standards-Version to 4.6.0 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Wed, 25 Aug 2021 14:14:36 +0800
+
+fcitx5-skk (5.0.4-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 19 Feb 2021 22:37:44 +0800
+
+fcitx5-skk (5.0.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Update Standards-Version to 4.5.1 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 16 Jan 2021 02:57:53 +0800
+
+fcitx5-skk (5.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Only install icons with org.fcitx.Fcitx5 prefix
+  * Bump fcitx5 to 5.0.2
+  * Drop fcitx5 Depends from fcitx5-skk.
+    Make it consistent with other fcitx5 methods
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 05 Dec 2020 23:10:54 +0800
+
+fcitx5-skk (5.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Boyuan Yang ]
+  * debian/: Add missing build-dep
+  * fcitx5-skk: Depends on skkdic
+
+  [ Shengjing Zhu ]
+  * New upstream release
+  * Bump fcitx5 to 5.0.0
+  * Rename icon to fcitx5-skk (Closes: #970138)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 10 Nov 2020 22:45:49 +0800
+
+fcitx5-skk (0.0~git20200615.d13e190-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 04 Jul 2020 06:53:39 -0400
